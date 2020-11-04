@@ -1,59 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title> Tiky Tyki Argentina </title>
     <meta charset="UTF-8">
-    <meta name="keywords" content="Tiky, Tyki, fightstick, adaptador, FGC, smash, GC, gamecube, Argentina">
-    <meta name="author" content="Paco">
-    <link rel="StyleSheet" href="CSS/estilo_index.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Tiky Tyki Argentina </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+    <link href="css/templatemo-real-dynamic.css" rel="stylesheet" />
+<!--
+
+TemplateMo 547 Real Dynamic
+
+https://templatemo.com/tm-547-real-dynamic
+
+-->
 </head>
+
 <body>
-    <div id="contenedor_menu">
-        <div> Logo </div>  <!--EN ESTE DIV VA LA FOTO DEL LOGO-->
-        <div> <a href="index.html">Inicio</a> </div>
-        <div> <a href="pagina2.html">Productos</a> </div>
-        <div class="ultimo"> <a href="pagina3.html">Contacto</a> </div>
+    <div class="tm-container">
+        <div class="tm-site-header"></div> <!-- tm-site-header -->
+        <div class="tm-site-header-overlay">
+            <div class="tm-header-stripe ml-auto"></div>
+            <div class="tm-header-stripe tm-header-stripe-short ml-auto"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 tm-site-header-left">
+                        <h1 class="text-uppercase tm-site-name">Tiky Tyki</h1>
+                        <p class="text-white mb-0 tm-site-desc"></p> <!-- subtitulo -->
+                    </div>
+                    <div class="col-lg-8 tm-site-header-right">
+                        <!--Navbar-->
+                        <nav class="navbar navbar-expand-lg">
+                            <!-- Collapse button -->
+                            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+                                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                                        class="fas fa-bars text-white"></i></span></button>
+                            <!-- Collapsible content -->
+                            <div class="collapse navbar-collapse tm-nav" id="navbarNav">
+                                <!-- Links -->
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link tm-nav-link" href="#"> Inicio <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="pagina2.html"> Productos </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="pagina3.html"> Contacto </a>
+                                    </li>
+                                </ul>
+                                <!-- Links -->
+                            </div>
+                            <!-- Collapsible content -->
+                        </nav>
+                        <!--/.Navbar-->
+                    </div> <!-- col -->
+                </div> <!-- row -->
+            </div> <!-- container fluid -->
+        </div> <!-- tm-site-header-overlay -->
+        <div class="tm-header-stripe w-100"></div>
     </div>
-    <div id="contenedor_texto">
-        <div>
-            <h3> ¿Quienes somos? </h3>
-            <p>
-                Tiky Tyki es un emprendimiento argentino localizado en Capital 
-                Federal que busca hacer que los juegos de pelea sean mas accesibles 
-                desde lo económico en este pais. Para ello, ofrecemos productos de 
-                calidad a muy buen precio y, en algunos casos, con modelos únicos que 
-                no vas a encontrar en ningún otro lado. Actualmente, solo realizamos 
-                envíos a Capital Federal y Gran Buenos Aires pero en el futuro cercano 
-                pensamos realizar envíos a todo el país. Así vas a poder estar en tu 
-                casa tranquile todo el dia tiki tiki con los botoncitos.     
-            </p>
-        </div>
-        <div>
-            <h3> Nuestros Productos </h3>
-            <p class="productos">
-                Adaptador GC de dos puertos para Switch. Viene incluido con un 
-                Training Modpack para Smash Ultimate dentro del adaptador. De esta 
-                forma vas a tener mas control del player2 en training mode y sin 
-                siquiera tener que conectar un segundo control a la consola. Seguí 
-                este link para ver si tu Switch puede correr el Modpack: 
-                <a href="https://ismyswitchpatched.com" target="_blank"> https://ismyswitchpatched.com </a>
-                <br>
-                Precio: 3500$
-                <br> 
-                <a href="pagina2.html#adaptador">Ver más información...</a>
-            </p>
-            <br>
-            <p class="proximamente">
-                ¡¡Proximamente!!
-            </p>
+    <div class="tm-container">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/real-dynamic-banner-01.jpg">
         </div>
     </div>
-    <div id="contenedor_redes">
-        <h3> Redes </h3>
-        <p> ¡Seguinos en nuestras redes para enterarte de nuestras últimas novedades! </p>
-        <p> <a href="">Facebook</a> </p>
-        <p> <a href="">Twitter</a> </p>
-        <p> <a href="">Instagram</a> </p>
-    </div>    
+
+    <div class="tm-container bg-white">
+        <div class="tm-header-stripe w-100"></div>
+        <div class="container-fluid">
+            <!--Intro-->
+            <section class="row tm-mb-1">
+                <h2 class="col-12 text-center tm-text-primary tm-my-1 tm-intro-text">¿Quienes somos?</h2>
+                <p style="text-align: justify; margin-left: 5%; margin-right: 5%;"> 
+                    Tiky Tyki es un emprendimiento argentino localizado en Capital 
+                    Federal que busca hacer que los juegos de pelea sean mas accesibles, 
+                    desde lo económico, en este pais. Para ello, ofrecemos productos de 
+                    calidad a muy buen precio y, en algunos casos, con modelos únicos que 
+                    no vas a encontrar en ningún otro lado. Actualmente, solo realizamos 
+                    envíos a Capital Federal y Gran Buenos Aires pero en el futuro cercano 
+                    pensamos realizar envíos a todo el país. Así vas a poder estar en tu 
+                    casa tranquile todo el dia tiki tiki con los botoncitos.
+                </p>
+            </section>
+            
+
+            <!-- Services -->
+            <div class="row tm-mb-1">
+                <h2 class="col-12 text-center tm-text-primary tm-my-1 tm-intro-text">Nuestros productos</h2>
+                <div class="container-productos">
+                    <div class="col-lg-4">
+                        <div class="tm-bg-gray tm-box-2">
+                            <h3 class="tm-text-primary tm-h3" style="font-size: 24px;">Adaptador Gamecube Tyki</h3>
+                            <i class="fas fa-mobile-alt fa-5x tm-icon-2 d-block text-center"></i>
+                            <p class="tm-mb-5">Adaptador GC de dos puertos para Switch que viene incluido con un Training Modpack para Smash Ultimate.</p>
+                            <div class="text-center">
+                                <a href="pagina2.html#adaptador" class="btn btn-primary rounded-0">Más Información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="tm-bg-gray tm-box-2">
+                            <h3 class="tm-text-primary tm-h3">¡¡PROXIMAMENTE!!</h3>
+                            <i class="fas fa-sms fa-5x tm-icon-2 d-block text-center"></i>
+                            <!-- <p class="tm-mb-5"></p>
+                            <div class="text-center"><a href="#" class="btn btn-secondary rounded-0">Más Información</a></div> -->
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <!-- Testimonials -->
+            <div class="tm-mb-2">
+                <h2 class="text-center tm-text-primary tm-h2-big tm-mb-6" style="margin-bottom: 25px;">Redes</h2>
+                <div class="col-lg-6 mx-auto tm-mb-4">
+                    <div class="text-center">
+                        <p style="margin-bottom: 30px;"> ¡Seguinos en nuestras redes para enterarte de nuestras últimas novedades! </p>
+                        <p class="tm-mb-4" style="padding-left: 20px;"> <a href="https://fb.com/templatemo" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a> Facebook </p>
+                        <p class="tm-mb-4"> <a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a> Twitter </p>
+                        <p class="tm-mb-4" style="padding-left: 20px;"> <a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a> Instagram </p>
+                    </div>
+                </div>
+            </div>
+            <footer class="row">
+                <p class="mb-0 w-100 text-center col-12">
+                     &copy; 2020 Tiky Tyki Argentina
+                    
+                    - Real Dynamic by <a rel="nofollow" href="https://templatemo.com" class="tm-text-link">TemplateMo</a>
+                </p>
+            </footer>
+        </div> <!-- container-fluid -->
+    </div> <!-- tm-container -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script> <!-- https://pixelcog.github.io/parallax.js/ -->
+    <script src="js/tooplate-script.js"></script>
 </body>
 </html>
