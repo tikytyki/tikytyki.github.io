@@ -57,21 +57,21 @@ ul { line-height: 2; }
 }
 
 .tm-site-header {
-    background-color: #474849;
+    background-color: coral;
     background-image: url(../img/stripe.png);
     height: 60px;    
 }
 
 .tm-site-header-overlay {
-    color: white;
-    background-color: #656667;    
+    color: skyblue;
+    background-color: lightcoral;    
     padding-top: 20px; 
 }
 
 .tm-header-stripe {
     height: 20px;
     width: 68.75%;
-    background-color: #474849;      
+    background-color: coral;      
     background-image: url(../img/stripe-short.png);
 }
 
@@ -98,19 +98,19 @@ ul { line-height: 2; }
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: white;
+  color: skyblue;
   padding: 14px 50px;      
   transform: skew(20deg, 0);
 }
 
 .nav-item.active,
 .nav-item:hover {
-  background-color: #474849;
+  background-color: coral;
 }
 
 .nav-item.active .nav-link,
 .nav-item:hover .nav-link {
-  color: white;
+  color: skyblue;
 }
 
 .parallax-window {
