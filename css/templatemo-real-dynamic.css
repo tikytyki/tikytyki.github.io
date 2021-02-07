@@ -119,7 +119,8 @@ ul { line-height: 2; }
 }
 
 .tm-intro-text { font-size: 2.6rem; }
-.tm-text-primary { color: #06C; }
+.tm-text-primary { color: #06C;  }
+.tm-text-secondary { color: #F23; font-size: 25px; }
 .tm-text-dark-gray { color: #68696A; }
 
 .tm-my-1 {
@@ -247,7 +248,7 @@ ul li { list-style: none; }
 /* About */
 .tm-about-box { max-width: 840px; }
 .tm-company-background-col { max-width: 720px; }
-.tm-company-background { max-width: 520px; }
+.tm-company-background { max-width: 360px; }
 .tm-strategy-box { display: flex; }
 
 .tm-strategy-icon {
