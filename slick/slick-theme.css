@@ -23,6 +23,7 @@
     line-height: 0;
 
     position: absolute;
+    margin: auto;
     top: 50%;
 
     display: block;
@@ -111,7 +112,7 @@
 [dir='rtl'] .slick-next:before
 {
     content: '←';
-}
+} 
 
 /* Dots */
 .slick-dotted.slick-slider

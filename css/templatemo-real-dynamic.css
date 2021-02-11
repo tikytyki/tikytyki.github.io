@@ -212,7 +212,7 @@ ul li { list-style: none; }
 .tm-social-link:hover .tm-social-icon { color: #06C; }
 .tm-text-link { color: #666; }
 .tm-text-link:hover { color: #06C; }
-.tm-carousel { padding-bottom: 30px; }
+.tm-carousel { padding-bottom: 10px; }
 
 /*
   Slick dots
@@ -247,7 +247,10 @@ ul li { list-style: none; }
 
 /* About */
 .tm-about-box { max-width: 840px; }
-.tm-company-background-col { max-width: 720px; }
+.tm-company-background-col { 
+  max-width: 720px; 
+  text-align: center; 
+}
 .tm-company-background { max-width: 360px; }
 .tm-strategy-box { display: flex; }
 
