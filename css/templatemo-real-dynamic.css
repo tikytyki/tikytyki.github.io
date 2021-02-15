@@ -50,12 +50,6 @@ ul { line-height: 2; }
 
 .container-fluid { max-width: 1570px; }
 
-.container-productos {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
 .tm-site-header {
     background-color: coral;
     background-image: url(../img/stripe.png);
