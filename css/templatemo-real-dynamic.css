@@ -763,10 +763,14 @@ select:not([multiple]) {
 
 .imagen-contacto1 {
   float: left;
+  width: 40%;
+  max-width: 150px;
 }
 
 .imagen-contacto2 {
   float: left;
   position: relative;
+  width: 40%;
+  max-width: 150px;
   bottom: 30px; 
 }
