@@ -58,6 +58,7 @@ ul { line-height: 2; }
 
 .tm-site-header-overlay {
     color: skyblue;
+    text-shadow: -.1rem .1rem .1rem #323232;
     background-color: lightcoral;    
     padding-top: 20px; 
 }
@@ -92,7 +93,7 @@ ul { line-height: 2; }
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: skyblue;
+  color: skyblue;  
   padding: 14px 50px;      
   transform: skew(20deg, 0);
 }
