@@ -9,6 +9,10 @@
     src: url("fonts/Lato-Regular.ttf");
 }
 
+@font-face {
+    font-family: Rubik;
+    src: url("fonts/Rubik-VariableFont_wght.ttf")
+}
 
 
 /* Reglas Generales */
@@ -169,16 +173,19 @@ section.catalogo div.resumen-productos > div {
 }
 
 section.catalogo div.resumen-productos h3, 
-section.productos h3,
+section.productos div.contenedor-productos h3,
 section.contacto div.contenedor-informacion h3 {
     margin-bottom: 5px;
     font-size: 1.6rem;
+    font-weight: bold;
     color: #06C;
 }
 
 section.catalogo div.resumen-productos h3.precio,
-section.productos h3 span {
+section.productos div.contenedor-productos h3 span,
+section.productos div.contenedor-productos h4 {
     font-size: 1.4rem;
+    font-weight: bold;
     color: salmon;
 }
 
@@ -247,7 +254,33 @@ section.productos div.contenedor-productos {
 section.productos div.contenedor-productos > div {
     width: 40%;
    /* min-width: 300px; */
-    margin: 2rem 1rem;
+    margin: 2rem 0;
+}
+
+section.productos div.contenedor-productos h3,
+section.productos div.contenedor-productos h4 {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+section.productos div.contenedor-boton-compra {
+    margin-top: 1rem;
+}
+
+section.productos a.boton-compra {
+    padding: 0.1rem 0.8rem;
+    background-color: salmon;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Rubik';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5rem;
+}
+
+section.productos a.boton-compra:hover {
+    text-decoration: none;
 }
 
 section.productos div.carousel {
@@ -270,6 +303,44 @@ section.productos div.contenedor-video iframe {
     left: 3%;
     width: 100%; 
     height: 100%; 
+}
+
+section.productos div > ul li {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1rem;
+    padding-bottom: 1.7rem;
+}
+
+section.productos div ul span.titulo {
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding-right: 1rem;
+    padding-bottom: 1.3rem;
+    float: left; 
+}
+
+section.productos div ul li.extras {
+    padding-bottom: 3.5rem;
+}
+
+section.productos div ul.extras li {
+    padding-left: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+section.productos div ul.extras li:nth-child(2), 
+section.productos div ul.extras li:last-child {
+    text-align: justify;
+}
+
+section.productos div ul.extras li.titulo-extras {
+    text-align: left;
+    font-weight: 600;
+}
+
+section.productos div ul.extras li.titulo-extras span {
+    color: salmon;
 }
 
 section.contacto div.contenedor-informacion {
@@ -412,19 +483,37 @@ footer p {
     }
 
     section.productos h3 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     section.productos h3 span {
-        display: block;
+       display: block;
     }
 
     section.productos div.contenedor-productos > div {
-        width: 80%;
+        width: 90%;
     } 
 
     section.productos div.contenedor-video iframe {
         left: 0;
+    }
+
+    section.productos div ul > li {
+        text-align: center;
+    }
+
+    section.productos div ul span.titulo, 
+    section.productos div ul li.extras {
+        display: block;
+        float: none;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+
+
+    section.productos div ul.extras li {
+        padding-left: 0;
     }
 
     section.contacto div.contenedor-informacion div {
