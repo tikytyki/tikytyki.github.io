@@ -218,6 +218,20 @@ section.redes p {
     line-height: 1.6;
 }
 
+section.redes div.contenedor-tweets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 620px; /* ajustar la altura para que sea mayor a la del tweet mas grande */
+}
+
+section.redes div.contenedor-tweets div.tweets {
+    width: 80%;
+    max-height: 600px;
+    transition: 3s ease;
+}
+
+
 section.redes ul {
     list-style-type: none;
     margin: 1.5rem 0;
@@ -515,6 +529,13 @@ footer p {
     section.productos div ul.extras li {
         padding-left: 0;
     }
+
+
+    section.redes div.contenedor-tweets div.tweets {
+        width: 60%;
+        margin-right: 10%;
+    }
+
 
     section.contacto div.contenedor-informacion div {
         width: 310px;
